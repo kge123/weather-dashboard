@@ -1,0 +1,12 @@
+body {
+  font-family: "Gemunu Libre", sans-serif;
+  margin: 0;
+}
+.banner {
+  font-family: "Gemunu Libre", sans-serif;
+  text-align: center;
+  color: white;
+}
+.city-button {
+  float: left;
+}
