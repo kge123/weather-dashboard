@@ -11,23 +11,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css">
     <title>Weather Dashboard</title>
+    <header class="banner"
+    style="
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/39/Cloud_banner.jpg);
+      background-size: cover;
+      height: 50px;
+      padding: 35px;
+    ">Weather Dashboard</header>
   </head>
   <body>
-    <header class="banner">
-      <h1
-        style="
-          background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/39/Cloud_banner.jpg);
-          background-size: cover;
-          height: 100px;
-          padding-top: 0px;
-        "
-      >
-        Weather Dashboard
-      </h1>
+    <header>
+      <h1></h1>
     </header>
     <div>
-      <form id="search-city" class="form">
+      <form id="search-city" class="searchCity">
+        <h1>Search a City</h1>
         <input
           id="search-text"
           class="form-input"
@@ -35,7 +35,8 @@
           placeholder="Enter City"
         />
       </form>
-      <button class="btn" id="city-button">Search City</button>
+      <button class="btn cityBtn" style="
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/39/Cloud_banner.jpg);">Search City</button>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

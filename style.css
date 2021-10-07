@@ -1,12 +1,28 @@
 body {
-  font-family: "Gemunu Libre", sans-serif;
   margin: 0;
 }
 .banner {
-  font-family: "Gemunu Libre", sans-serif;
   text-align: center;
+  font-size: 50px;
   color: white;
 }
-.city-button {
-  float: left;
+.searchCity {
+  font-family: "Gemunu Libre", sans-serif;
+  margin: 10px;
+}
+.form-input {
+  font-family: "Gemunu Libre", sans-serif;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+.cityBtn {
+  font-family: "Gemunu Libre", sans-serif;
+  margin: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 75px;
+  padding-right: 75px;
+  color: white;
 }
